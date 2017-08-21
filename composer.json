@@ -1,0 +1,19 @@
+{
+    "description": "Opinionated Fusion prototypes generators",
+    "type": "neos-package",
+    "name": "codeq/fusionprototypegenerator",
+    "require": {
+        "neos/neos": "^3.0"
+    },
+    "license": "GPL-3.0+",
+    "autoload": {
+        "psr-4": {
+            "CodeQ\\FusionPrototypeGenerator\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "CodeQ.FusionPrototypeGenerator"
+        }
+    }
+}

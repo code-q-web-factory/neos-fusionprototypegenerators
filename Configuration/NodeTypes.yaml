@@ -1,0 +1,11 @@
+'CodeQ.FusionPrototypeGenerator:ContentPrototypeGeneratorMixin':
+  abstract: true
+  options:
+    fusion:
+      prototypeGenerator: CodeQ\FusionPrototypeGenerator\Generators\DefaultContentPrototypeGenerator
+
+'CodeQ.FusionPrototypeGenerator:DocumentPrototypeGeneratorMixin':
+  abstract: true
+  options:
+    fusion:
+      prototypeGenerator: CodeQ\FusionPrototypeGenerator\Generators\DefaultDocumentPrototypeGenerator
