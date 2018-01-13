@@ -24,7 +24,7 @@ class DefaultDocumentPrototypeGenerator implements DefaultPrototypeGeneratorInte
 
         $prototypeName = $nodeType->getName();
 
-        $output = 'prototype(' . $prototypeName . ') < prototype(CodeQ.Site:SimpleTemplate) {' . chr(10);
+        $output = 'prototype(' . $prototypeName . ') < prototype(CodeQ.SimpleTemplate:Template) {' . chr(10);
         foreach ($nodeType->getProperties() as $propertyName => $propertyConfiguration) {
             if (isset($propertyName[0]) && $propertyName[0] !== '_') {
                 $output .= "\t" . $propertyName . ' = ${q(node).property("' . $propertyName . '")}' . chr(10);
