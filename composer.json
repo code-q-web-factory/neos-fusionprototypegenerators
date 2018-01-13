@@ -3,7 +3,8 @@
     "type": "neos-package",
     "name": "codeq/fusionprototypegenerator",
     "require": {
-        "neos/neos": "^3.0"
+        "neos/neos": "^3.0",
+        "codeq/simpletemplate": "*"
     },
     "license": "GPL-3.0+",
     "autoload": {
